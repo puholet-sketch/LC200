@@ -1,0 +1,24 @@
+{
+  "context_version": 1,
+  "timestamp": "2026-08-23T11:50:00+03:00",
+  "context_hash": "8159b41c9a6d7d93cf2a89a888ddeb4f74ea61352b6c94a30b1dedc0688dce8e",
+  "active_files": [
+    "index.html",
+    "assets/css/style.css",
+    "assets/js/main.js"
+  ],
+  "active_file_hashes": {
+    "index.html": "ac766dca74605bc3163a7ca3fa1a1630802485edc0be81cd6630ac18010ca303",
+    "assets/css/style.css": "d1537f35c9ce8eda9ff8bd1eee923c033b35b9d917eaade520d4657c2e0b209e",
+    "assets/js/main.js": "6e6aaf0cd2bcc2de323e3d26d127db1c22331d1f24ccae43e75d244e7350b4b6"
+  },
+  "decisions": [
+    "Сайт в стиле Toyota, не ОУД4",
+    "PII собственника и номера СТС не публиковать",
+    "Крепёж: гайки M14x1.5, не болты; aftermarket — конус 60"
+  ],
+  "blockers": [],
+  "last_error": null,
+  "retry_count": 0,
+  "next_action": "выбрать диск 9x22 5x150 ET45-50 и гайки конус 60"
+}
