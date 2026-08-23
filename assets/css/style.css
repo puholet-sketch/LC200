@@ -646,7 +646,8 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 42px;
+  height: 44px;
+  min-height: 44px;
   padding: 8px 6px;
   text-align: center;
   text-decoration: none;
