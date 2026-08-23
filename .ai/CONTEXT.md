@@ -1,6 +1,6 @@
 # LC200 — колёса 20 → 22
 
-context_version: 2
+context_version: 3
 updated: 2026-08-23
 
 ## Проект
@@ -31,4 +31,4 @@ updated: 2026-08-23
 
 Сайт: https://puholet-sketch.github.io/LC200/
 Репозиторий: https://github.com/puholet-sketch/LC200
-RST/Replay в карточках — пресс-шайба. `_src/` со СТС в git не входит.
+Кнопки магазинов выровнены 3×1. Китай: Replay TY374, Sailun, Tracmax, Linglong. Авито — категория шины/диски.
