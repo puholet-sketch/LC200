@@ -1,6 +1,6 @@
 # LC200 — колёса 20 → 22
 
-context_version: 3
+context_version: 4
 updated: 2026-08-23
 
 ## Проект
@@ -32,3 +32,4 @@ updated: 2026-08-23
 Сайт: https://puholet-sketch.github.io/LC200/
 Репозиторий: https://github.com/puholet-sketch/LC200
 Кнопки магазинов выровнены 3×1. Китай: Replay TY374, Sailun, Tracmax, Linglong. Авито — категория шины/диски.
+Эмблема Toyota — трёховальный mark, не самодельные эллипсы. Слайдер 20/22. Мобильное меню — полноэкранный лист.

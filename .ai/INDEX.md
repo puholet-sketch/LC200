@@ -11,5 +11,7 @@
 - `assets/img/lc200-hero.png` — герой
 - `assets/img/lc200-compare-20.png` — вид 20″
 - `assets/img/lc200-compare-22.png` — вид 22″
+- `assets/img/toyota-mark.svg` — трёховальная эмблема
+- `assets/img/favicon.svg` — фавикон красным mark
 - `assets/img/lug-nut-oem.png` — штатная mag-seat
 - `assets/img/lug-nut-cone.png` — конус 60°

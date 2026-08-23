@@ -1,22 +1,23 @@
 {
-  "context_version": 3,
-  "timestamp": "2026-08-23T14:27:52+03:00",
-  "context_hash": "d3aabd931a32e8012131b91f41721055a2045c59f43415e9a609736828c6cbc2",
+  "context_version": 4,
+  "timestamp": "2026-08-23T17:39:14+03:00",
+  "context_hash": "14534d64ab623b443a18f8c34c0056d58f9832472ff8425056ac361436926d91",
   "active_files": [
     "index.html",
     "assets/css/style.css",
     "assets/js/main.js"
   ],
   "active_file_hashes": {
-    "index.html": "edd2bd9135f575e85541a1204a192930567490380e4a864c0a64c6f1a691434c",
-    "assets/css/style.css": "1fd81e231cb4bdc44706768e7ddcefe8db8c476dc215e9717ee81a1ff67523f7",
-    "assets/js/main.js": "6e6aaf0cd2bcc2de323e3d26d127db1c22331d1f24ccae43e75d244e7350b4b6"
+    "index.html": "f76e3358ae8cb58e1d257a6fc2941908cc68ef470170ee16eeff8899007eea99",
+    "assets/css/style.css": "3f9452a811985a745b3d16033ccacd3b4878564f8cbf6e31d039639c98d41e4b",
+    "assets/js/main.js": "812cc0d05d1795c30affb1370cfedce7bcdd0c7ae7e2096213b4356d4f2095c1"
   },
   "decisions": [
     "Публичный репо puholet-sketch/LC200, Pages с main",
     "PII и _src не в git",
-    "Кнопки магазинов 3x1 одинакового размера",
-    "Китай: Replay TY374, Sailun, Tracmax, Linglong"
+    "Эмблема Toyota — трёховальный mark",
+    "Слайдер 20/22",
+    "Мобильное меню полноэкранным листом"
   ],
   "blockers": [],
   "last_error": null,
