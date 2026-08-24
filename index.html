@@ -13,7 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="assets/css/style.css?v=6">
+  <link rel="stylesheet" href="assets/css/style.css?v=7">
 </head>
 <body>
   <a class="skip" href="#main">К содержанию</a>
@@ -193,6 +193,30 @@
           <h2>Только шины. Диски 20″ не трогаем.</h2>
           <p class="lead">Заводской 8.5J×20 ET60 уже сидит как надо. Чтобы колесо выглядело крупнее и ехало мягче, ставят более высокий профиль на тот же диск: боковина снова берёт удары на себя, арка заполняется. Шире 285 на 8.5J не идём — 305 сюда не садится. Ниже индекса 112 не брать: на полной массе 3350 кг это уже без запаса.</p>
         </div>
+
+        <div class="fitment reveal" data-fitment>
+          <div class="fitment__disk">
+            <img src="assets/img/oem-20-wheel.jpg" alt="Штатный диск Toyota LC200 8.5J×20 ET60, двухтонный split-spoke, в коробке">
+            <p>Ваш диск: 8.5J×20 ET60 · 5×150 · mag-seat. Шины ниже — на нём, на сером LC200.</p>
+          </div>
+          <div class="fitment__stage">
+            <figure class="fitment__car">
+              <img src="assets/img/stock20-285-50.jpg" alt="Серый Land Cruiser 200 на штатном диске 20 дюймов" data-fitment-car>
+            </figure>
+            <figure class="fitment__arch">
+              <img src="assets/img/stock20-285-50-wheel.jpg" alt="Задняя арка, 285/50R20 на штатном диске" data-fitment-wheel>
+            </figure>
+          </div>
+          <div class="fitment__chips" role="tablist" aria-label="Размер шины на штатном 20">
+            <button type="button" class="is-on" role="tab" aria-selected="true" data-car="assets/img/stock20-285-50.jpg" data-wheel="assets/img/stock20-285-50-wheel.jpg" data-alt="Задняя арка, завод 285/50R20" data-note="Завод из СТС. Круг 793 мм, боковина 142 мм, индекс 112. Зазор в арке максимальный.">285/50 штат</button>
+            <button type="button" role="tab" aria-selected="false" data-car="assets/img/stock20-275-55.jpg" data-wheel="assets/img/stock20-275-55-wheel.jpg" data-alt="Задняя арка, 275/55R20 на штатном диске" data-note="Первый размер. Круг +18 мм (+2,2%), боковина 151 мм. Мягче стыки, арка чуть плотнее. Красное кольцо — контур штата.">275/55 комфорт</button>
+            <button type="button" role="tab" aria-selected="false" data-car="assets/img/stock20-285-55.jpg" data-wheel="assets/img/stock20-285-55-wheel.jpg" data-alt="Задняя арка, 285/55R20 на штатном диске" data-note="Та же ширина 285, выше профиль. Круг +28 мм (+3,6%), боковина 157 мм. Шоссейных моделей мало.">285/55 ширина</button>
+            <button type="button" role="tab" aria-selected="false" data-car="assets/img/stock20-275-60.jpg" data-wheel="assets/img/stock20-275-60-wheel.jpg" data-alt="Задняя арка, 275/60R20 на штатном диске" data-note="Максимум вида без смены диска. Круг +45 мм (+5,7%), боковина 165 мм. Сначала полный оборот руля с грузом.">275/60 вид</button>
+            <button type="button" role="tab" aria-selected="false" data-car="assets/img/stock20-275-55-at.jpg" data-wheel="assets/img/stock20-275-55-at-wheel.jpg" data-alt="Задняя арка, 275/55R20 A/T на штатном диске" data-note="Тот же круг, что у 275/55, но зубастый A/T: визуально «больше колесо», громче и длиннее тормозной путь на мокром.">275/55 A/T</button>
+          </div>
+          <p class="fitment__note" data-fitment-note>Завод из СТС. Круг 793 мм, боковина 142 мм, индекс 112. Зазор в арке максимальный.</p>
+        </div>
+
         <div class="sidewall-bars reveal">
           <div class="sidewall-bar">
             <span class="sidewall-bar__name">285/50R20 штат</span>
@@ -220,14 +244,30 @@
         </ul>
         <div class="grid-3">
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-55-wheel.jpg" alt="275/55R20 на штатном диске LC200, задняя арка">
+            </figure>
             <div class="tag">Комфорт · безопасно</div>
             <h3>275/55R20 113V+</h3>
             <p class="spec">Круг 811 мм · боковина 151 мм · на 8.5J</p>
-            <ul>
-              <li>Выше штата на 18 мм — арка заполняется, спидометр чуть занизит</li>
-              <li>Bridgestone Alenza 001 113V — шоссе, тихо, запас 1150 кг</li>
-              <li>Goodyear EfficientGrip SUV 117V — ещё + запас нагрузки</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Выше штата на 18 мм — арка плотнее, стыки мягче</li>
+                  <li>Alenza 001 / EfficientGrip: тихо, мокрое торможение, индекс 113–117</li>
+                  <li>Диск, гайки и сверловка не трогаем</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>Спидометр занизит примерно на 2%</li>
+                  <li>На 10 мм уже завода — визуально чуть «тоньше» 285</li>
+                  <li>Зазор в арке остаётся, это не 18-дюймовый вид</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/bridgestone/alenza-001-/275-55-R20-V-113-460498/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/goodyear/efficientgrip-suv-4x4/275-55-R20-V-117-2070293/" target="_blank" rel="noopener">Goodyear</a>
@@ -235,14 +275,30 @@
             </div>
           </article>
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-60-wheel.jpg" alt="275/60R20 на штатном диске LC200, задняя арка">
+            </figure>
             <div class="tag">Вид · заполнить арку</div>
             <h3>275/60R20 115H+</h3>
             <p class="spec">Круг 838 мм · боковина 165 мм</p>
-            <ul>
-              <li>Самый «мясистый» вид на штатном 20″ без смены диска</li>
-              <li>Michelin Primacy SUV+ 115H — комфорт, индекс 1215 кг</li>
-              <li>+5,7% к диаметру: полный оборот руля и лежачий — слушать подкрылок</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Самый «мясистый» вид на заводском 20″</li>
+                  <li>Боковина 165 мм — максимум комфорта на стыках</li>
+                  <li>Primacy SUV+ 115H: 1215 кг на колесо</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>+5,7% к кругу: спидометр и передачи «длиннее»</li>
+                  <li>Риск задеть подкрылок на полном обороте с грузом</li>
+                  <li>Шоссейных 275/60 меньше, чем 275/55</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/michelin/primacy-suv-plus/275-60-R20-H-115-9383637/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/w-275/h-60/r-20/" target="_blank" rel="noopener">Каталог</a>
@@ -250,14 +306,30 @@
             </div>
           </article>
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-285-55-wheel.jpg" alt="285/55R20 на штатном диске LC200, задняя арка">
+            </figure>
             <div class="tag">Та же ширина</div>
             <h3>285/55R20 117 XL</h3>
             <p class="spec">Круг 822 мм · боковина 157 мм</p>
-            <ul>
-              <li>Ширина как у завода, профиль выше — визуально ближе к 18″ LC</li>
-              <li>Шоссейных 285/55 в РФ мало, чаще A/T и R/T</li>
-              <li>Если в наличии пусто — берите 275/55, не 305/50 на 8.5J</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Ширина как у завода — силуэт честнее, чем 275</li>
+                  <li>Боковина 157 мм, круг +3,6%</li>
+                  <li>Индекс 117 XL закрывает 3350 кг с запасом</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>Шоссейных 285/55 в РФ мало, чаще A/T</li>
+                  <li>A/T в этом размере будет шуметь</li>
+                  <li>Если пусто в наличии — не уходить в 305 на 8.5J</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/w-285/h-55/r-20/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.4tochki.ru/catalog/tyres/285-55-r20/" target="_blank" rel="noopener">4точки</a>
@@ -269,14 +341,30 @@
         <h3 class="subhead reveal" style="margin: 40px 0 16px;">Ещё шоссейные с запасом нагрузки</h3>
         <div class="grid-3">
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-55-wheel.jpg" alt="Pirelli Scorpion Verde 275/55R20 на штатном диске LC200">
+            </figure>
             <div class="tag">Комфорт · 117 XL</div>
             <h3>Pirelli Scorpion Verde</h3>
             <p class="spec">275/55R20 117H XL · лето / all-season</p>
-            <ul>
-              <li>Индекс 117 = 1285 кг — запас к 840 кг на колесо</li>
-              <li>Тихий SUV-рисунок, мокрое торможение лучше A/T</li>
-              <li>Тот же круг +2,2%, гайки штатные</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Индекс 117 = 1285 кг — запас к 840 кг на колесо</li>
+                  <li>Тихий SUV-рисунок, на мокром лучше A/T</li>
+                  <li>All-season закрывает межсезонье без второй оси</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>All-season в жару держит хуже чистого лета</li>
+                  <li>Дороже Hankook при том же размере</li>
+                  <li>Не даёт «зубастого» вида</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/pirelli/scorpion-verde-all-season/275-55-R20-H-117-6748449/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.4tochki.ru/catalog/tyres/275-55-r20/" target="_blank" rel="noopener">4точки</a>
@@ -284,14 +372,30 @@
             </div>
           </article>
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-55-wheel.jpg" alt="Hankook Ventus ST 275/55R20 на штатном диске LC200">
+            </figure>
             <div class="tag">Комфорт · шоссе</div>
             <h3>Hankook Ventus ST RH06</h3>
             <p class="spec">275/55R20 117V · лето</p>
-            <ul>
-              <li>Индекс 117 и скорость V — для LC200 с запасом</li>
-              <li>H/P шоссе, не зубастый A/T: тише и предсказуемее в дождь</li>
-              <li>Рекомендуемая полка диска как раз 8.5J</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>117V — нагрузка и скорость с запасом для LC200</li>
+                  <li>H/P шоссе: тише и предсказуемее A/T в дождь</li>
+                  <li>Полка 8.5J — родная, без «домика»</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>Рисунок старше Alenza, на сухом чуть шумнее премиума</li>
+                  <li>Нужно ловить именно 117V, не младший индекс</li>
+                  <li>Внешне неотличим от штата — только выше профиль</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/hankook/ventus-st-rh06/275-55-R20-V-117-404064/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/w-275/h-55/r-20/" target="_blank" rel="noopener">Каталог</a>
@@ -299,14 +403,30 @@
             </div>
           </article>
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-60-wheel.jpg" alt="Hankook Dynapro HP2 275/60R20 на штатном диске LC200">
+            </figure>
             <div class="tag">Комфорт · вид 60</div>
             <h3>Hankook Dynapro HP2</h3>
             <p class="spec">275/60R20 · шоссе SUV</p>
-            <ul>
-              <li>Туринг для тяжёлых SUV: мягче Primacy на стыках</li>
-              <li>Боковина 165 мм — самый полный вид без смены диска</li>
-              <li>Брать индекс 115+, не 111 и не 109</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Туринг для тяжёлых SUV: мягче Primacy на швах</li>
+                  <li>Боковина 165 мм — полный вид без смены диска</li>
+                  <li>Дешевле Michelin в том же 60-м</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>Брать только 115+, не 111 и не 109</li>
+                  <li>На мокром слабее Primacy SUV+</li>
+                  <li>Тот же риск подкрылка, что у любого 275/60</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/hankook/dynapro-hp2-ra33/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.4tochki.ru/catalog/tyres/275-60-r20/" target="_blank" rel="noopener">4точки</a>
@@ -322,14 +442,30 @@
         <h3 class="subhead reveal" style="margin: 40px 0 16px;">Китайские аналоги на 20″</h3>
         <div class="grid-3">
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-55-wheel.jpg" alt="Triangle TR259 275/55R20 на штатном диске LC200">
+            </figure>
             <div class="tag">Китай · шоссе</div>
             <h3>Triangle TR259</h3>
             <p class="spec">275/55R20 117W XL · лето</p>
-            <ul>
-              <li>Индекс 117 = 1285 кг, с запасом под 3350 кг</li>
-              <li>Асимметрия, не грязевой A/T — тише в городе</li>
-              <li>Тот же круг, что у Alenza, дешевле премиума</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Индекс 117W и асимметрия — не грязевой A/T</li>
+                  <li>Тот же круг, что у Alenza, заметно дешевле</li>
+                  <li>Тише в городе, чем Sailun Terramax</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>На мокром и в износе слабее премиума</li>
+                  <li>Ресурс и аквапланирование — лотерея партии</li>
+                  <li>Нет запаса по шуму на трассе после 15 тыс. км</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/triangle/tr259/275-55-R20-W-117-5760585/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.4tochki.ru/catalog/tyres/275-55-r20/" target="_blank" rel="noopener">4точки</a>
@@ -337,14 +473,30 @@
             </div>
           </article>
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-55-at-wheel.jpg" alt="Sailun Terramax A/T 275/55R20 на штатном диске LC200">
+            </figure>
             <div class="tag">Китай · вид A/T</div>
             <h3>Sailun Terramax A/T</h3>
             <p class="spec">275/55R20 117T XL · лето</p>
-            <ul>
-              <li>Зубастый протектор — визуально «больше колесо»</li>
-              <li>Индекс 117, скорость T до 190 км/ч — для LC200 хватает</li>
-              <li>Громче шоссейной, лучше по грунту и колее</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Зубастый протектор — колесо визуально крупнее</li>
+                  <li>Индекс 117, грунт и колея лучше шоссейной</li>
+                  <li>Скорости T до 190 км/ч для LC200 хватает</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>Шум на трассе и длиннее путь на мокром</li>
+                  <li>Расход чуть выше, чем у H/T</li>
+                  <li>Рисунком спорит с «городским» split-spoke диском</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/sailun/terramax-at/275-55-R20-T-117-5761017/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/w-275/h-55/r-20/" target="_blank" rel="noopener">Каталог</a>
@@ -352,14 +504,30 @@
             </div>
           </article>
           <article class="card product reveal">
+            <figure class="product__viz">
+              <img src="assets/img/stock20-275-60-wheel.jpg" alt="Triangle TR259 275/60R20 на штатном диске LC200">
+            </figure>
             <div class="tag">Китай · максимум</div>
             <h3>Triangle TR259 60-й</h3>
             <p class="spec">275/60R20 115H · лето</p>
-            <ul>
-              <li>Тот же бренд, ещё выше боковина — 165 мм</li>
-              <li>Индекс 115 = 1215 кг</li>
-              <li>Сначала примерить на полный оборот, не покупать 4 шт. вслепую</li>
-            </ul>
+            <div class="proscons">
+              <div>
+                <p class="proscons__h">Плюсы</p>
+                <ul>
+                  <li>Боковина 165 мм за цену ниже Primacy</li>
+                  <li>Индекс 115 = 1215 кг</li>
+                  <li>Шоссейный рисунок, не M/T</li>
+                </ul>
+              </div>
+              <div>
+                <p class="proscons__h is-minus">Минусы</p>
+                <ul>
+                  <li>Сначала примерять на полный оборот, не брать 4 шт. вслепую</li>
+                  <li>Мокрое и износ — слабее Hankook / Michelin</li>
+                  <li>+5,7% к кругу: то же, что у любого 60-го</li>
+                </ul>
+              </div>
+            </div>
             <div class="buy-links">
               <a href="https://www.kolesa-darom.ru/catalog/avto/shiny/triangle/tr259/" target="_blank" rel="noopener">Колёса Даром</a>
               <a href="https://www.4tochki.ru/catalog/tyres/275-60-r20/" target="_blank" rel="noopener">4точки</a>
@@ -772,6 +940,6 @@
     </div>
   </footer>
 
-  <script src="assets/js/main.js?v=6"></script>
+  <script src="assets/js/main.js?v=7"></script>
 </body>
 </html>

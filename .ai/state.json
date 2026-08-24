@@ -1,21 +1,21 @@
 {
-  "context_version": 6,
-  "timestamp": "2026-08-24T10:30:50+03:00",
-  "context_hash": "03e8c0bd74a19922bdbe508af45f86d8063c42bdd075212c8189aa465b9e0bcb",
+  "context_version": 7,
+  "timestamp": "2026-08-24T13:08:03+03:00",
+  "context_hash": "4ef348770263c4452ff2fdba9f973c84de1eeb10727bfa5a915864378f6eb7ee",
   "active_files": [
     "index.html",
     "assets/css/style.css",
     "assets/js/main.js"
   ],
   "active_file_hashes": {
-    "index.html": "f5a366b2f552a3031911d20643342369305189c31e5983db60193cc23522cf99",
-    "assets/css/style.css": "035ad40bc2721617e63773132ada2a68306a4145dd95158a353840579dd51d3a",
-    "assets/js/main.js": "feedaf726d826a861de1b10c597a74ead83067ce2b5278c13075cc0fd070c580"
+    "index.html": "e3132d2dfa29e17fd6bce8c28f26045972f34f47c00bf22a5e819665b8412e76",
+    "assets/css/style.css": "eab921127df7e6d08f994567601aca6351ca1ceab6b078968954dcb6916adea7",
+    "assets/js/main.js": "4e846e026f0c69ace8ff98d06228ce54b7d49c52d5861a1ed2f589623fc0e912"
   },
   "decisions": [
     "Публичный репо puholet-sketch/LC200, Pages с main",
     "PII и _src не в git",
-    "На штатных 20: 275/55 комфорт, 275/60 вид, запас Scorpion/Hankook"
+    "Визуал штатных 20: OEM-диск с фото + композит на LC200, плюсы/минусы моделей"
   ],
   "blockers": [],
   "last_error": null,

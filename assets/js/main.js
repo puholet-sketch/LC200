@@ -68,6 +68,29 @@
   window.addEventListener("scroll", setActive, { passive: true });
   setActive();
 
+  document.querySelectorAll("[data-fitment]").forEach(function (root) {
+    const car = root.querySelector("[data-fitment-car]");
+    const wheel = root.querySelector("[data-fitment-wheel]");
+    const note = root.querySelector("[data-fitment-note]");
+    const chips = [...root.querySelectorAll(".fitment__chips button")];
+
+    chips.forEach(function (chip) {
+      chip.addEventListener("click", function () {
+        chips.forEach(function (other) {
+          const on = other === chip;
+          other.classList.toggle("is-on", on);
+          other.setAttribute("aria-selected", String(on));
+        });
+        if (car && chip.dataset.car) car.src = chip.dataset.car;
+        if (wheel && chip.dataset.wheel) {
+          wheel.src = chip.dataset.wheel;
+          if (chip.dataset.alt) wheel.alt = chip.dataset.alt;
+        }
+        if (note && chip.dataset.note) note.textContent = chip.dataset.note;
+      });
+    });
+  });
+
   document.querySelectorAll("[data-compare]").forEach(function (root) {
     const range = root.querySelector("input");
     const before = root.querySelector(".ba__before");

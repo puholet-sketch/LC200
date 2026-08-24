@@ -7,7 +7,7 @@
 - `_src/sts-page-2.png` — лицевая СТС (ТС)
 - `index.html` — страница подбора 20→22
 - `assets/css/style.css` — стиль Toyota
-- `assets/js/main.js` — nav, сравнение колёс, reveal
+- `assets/js/main.js` — nav, сравнение 20/22, визуал шин на 20″
 - `assets/img/lc200-hero.png` — герой
 - `assets/img/lc200-compare-20.png` — вид 20″
 - `assets/img/lc200-compare-22.png` — вид 22″
@@ -15,3 +15,6 @@
 - `assets/img/favicon.svg` — фавикон красным mark
 - `assets/img/lug-nut-oem.png` — штатная mag-seat
 - `assets/img/lug-nut-cone.png` — конус 60°
+- `assets/img/oem-20-wheel.jpg` — штатный 8.5J×20 с фото владельца
+- `assets/img/stock20-*.jpg` — варианты шин на LC200 (полный борт + арка)
+- `scripts/render_stock20_fitment.py` — сборка визуала 50/55/60/A/T

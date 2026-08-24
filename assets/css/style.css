@@ -40,7 +40,12 @@ body.nav-open {
 
 img {
   max-width: 100%;
+  height: auto;
   display: block;
+}
+
+figure {
+  margin: 0;
 }
 
 a {
@@ -750,10 +755,7 @@ a {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-}
-
-.product ul {
-  flex: 1;
+  min-width: 0;
 }
 
 .product .tag {
@@ -781,9 +783,134 @@ a {
   color: var(--ink);
 }
 
-.product ul {
-  margin: 12px 0 0;
+.product__viz {
+  margin: 0 0 14px;
+  background: var(--paper);
+  overflow: hidden;
+}
+
+.product__viz img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 58%;
+}
+
+.proscons {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+  flex: 1;
+}
+
+.proscons__h {
+  margin: 0 0 6px;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #1a7a3a;
+}
+
+.proscons__h.is-minus {
+  color: var(--toyota-red);
+}
+
+.proscons ul {
+  margin: 0;
   padding-left: 18px;
+}
+
+.proscons li {
+  font-size: 13.5px;
+}
+
+.fitment {
+  margin: 0 0 40px;
+}
+
+.fitment__disk {
+  display: grid;
+  grid-template-columns: 112px minmax(0, 1fr);
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 16px;
+  padding: 12px 16px;
+  border: 1px solid var(--line);
+  background: var(--paper);
+}
+
+.fitment__disk img {
+  width: 112px;
+  height: 112px;
+  object-fit: cover;
+}
+
+.fitment__disk p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.fitment__stage {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.85fr);
+  gap: 12px;
+}
+
+.fitment__car,
+.fitment__arch {
+  margin: 0;
+  background: #f7f7f7;
+  overflow: hidden;
+}
+
+.fitment__car img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  object-position: 50% 62%;
+}
+
+.fitment__arch img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: center 58%;
+}
+
+.fitment__chips {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+  overflow-x: auto;
+  padding: 2px 0 8px;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.fitment__chips button {
+  flex: 0 0 auto;
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 1px solid var(--line);
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.fitment__chips button.is-on {
+  border-color: var(--toyota-red);
+  color: var(--toyota-red);
+}
+
+.fitment__note {
+  margin: 8px 0 0;
+  color: var(--muted);
+  font-size: 14px;
 }
 
 .fastener {
@@ -1218,6 +1345,35 @@ a {
     gap: 6px;
   }
 
+  .fitment__stage {
+    grid-template-columns: 1fr;
+  }
+
+  .fitment__disk {
+    grid-template-columns: 80px minmax(0, 1fr);
+    gap: 12px;
+    padding: 10px 12px;
+  }
+
+  .fitment__disk img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .fitment__car img {
+    aspect-ratio: 16 / 10;
+  }
+
+  .fitment__chips {
+    margin-inline: -16px;
+    padding-inline: 16px;
+  }
+
+  .fitment__chips button {
+    font-size: 12px;
+    padding: 8px 12px;
+  }
+
   .ba {
     aspect-ratio: 4 / 3;
   }
@@ -1272,6 +1428,23 @@ a {
 @media (max-width: 420px) {
   .hero__meta {
     gap: 8px;
+  }
+
+  .container {
+    width: min(var(--max), calc(100% - 24px));
+  }
+
+  .buy-links {
+    grid-template-columns: 1fr;
+  }
+
+  .buy-links a {
+    font-size: 12px;
+    letter-spacing: 0.04em;
+  }
+
+  .card {
+    padding: 16px;
   }
 }
 
