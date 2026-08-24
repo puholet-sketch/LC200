@@ -40,7 +40,7 @@
   window.addEventListener(
     "resize",
     function () {
-      if (window.innerWidth > 860) closeNav();
+      if (window.innerWidth > 1040) closeNav();
     },
     { passive: true }
   );

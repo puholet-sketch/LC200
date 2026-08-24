@@ -297,7 +297,7 @@ a {
 }
 
 .hero__cta .btn {
-  min-width: 220px;
+  min-width: 260px;
 }
 
 .hero__meta {
@@ -443,6 +443,22 @@ a {
 .card p,
 .card li {
   color: var(--muted);
+}
+
+.card--link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card--link:hover {
+  border-color: var(--ink);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.card--link h3 {
+  color: var(--ink);
 }
 
 .card--dark {
@@ -968,7 +984,7 @@ a {
   }
 }
 
-@media (max-width: 860px) {
+@media (max-width: 1040px) {
   .nav {
     display: none;
     position: fixed;

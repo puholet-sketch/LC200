@@ -1,23 +1,21 @@
 {
-  "context_version": 4,
-  "timestamp": "2026-08-23T17:39:14+03:00",
-  "context_hash": "14534d64ab623b443a18f8c34c0056d58f9832472ff8425056ac361436926d91",
+  "context_version": 5,
+  "timestamp": "2026-08-24T10:25:50+03:00",
+  "context_hash": "14b40075b018368938b3687fba58ff547ee09db17b1189a682587c7c2482aeb8",
   "active_files": [
     "index.html",
     "assets/css/style.css",
     "assets/js/main.js"
   ],
   "active_file_hashes": {
-    "index.html": "f76e3358ae8cb58e1d257a6fc2941908cc68ef470170ee16eeff8899007eea99",
-    "assets/css/style.css": "3f9452a811985a745b3d16033ccacd3b4878564f8cbf6e31d039639c98d41e4b",
-    "assets/js/main.js": "812cc0d05d1795c30affb1370cfedce7bcdd0c7ae7e2096213b4356d4f2095c1"
+    "index.html": "0426cf510eea901ddcba4eff1df321274bdd022ec91c800147765c6cae8db107",
+    "assets/css/style.css": "b1cfbc3c30738b0a8d30df02e7b25c27697b6f01f3995a3fcd5aa9b2a78c9374",
+    "assets/js/main.js": "feedaf726d826a861de1b10c597a74ead83067ce2b5278c13075cc0fd070c580"
   },
   "decisions": [
     "Публичный репо puholet-sketch/LC200, Pages с main",
     "PII и _src не в git",
-    "Эмблема Toyota — трёховальный mark",
-    "Слайдер 20/22",
-    "Мобильное меню полноэкранным листом"
+    "На штатных 20: 275/55R20 комфорт, 275/60R20 вид"
   ],
   "blockers": [],
   "last_error": null,
