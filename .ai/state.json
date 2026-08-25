@@ -1,21 +1,21 @@
 {
-  "context_version": 7,
-  "timestamp": "2026-08-24T13:08:03+03:00",
-  "context_hash": "4ef348770263c4452ff2fdba9f973c84de1eeb10727bfa5a915864378f6eb7ee",
+  "context_version": 8,
+  "timestamp": "2026-08-25T11:45:00+03:00",
+  "context_hash": "99f9ce51d12d86ea8f058677ab25e729da92785917e56835d9d1a57037e24995",
   "active_files": [
     "index.html",
     "assets/css/style.css",
     "assets/js/main.js"
   ],
   "active_file_hashes": {
-    "index.html": "e3132d2dfa29e17fd6bce8c28f26045972f34f47c00bf22a5e819665b8412e76",
-    "assets/css/style.css": "eab921127df7e6d08f994567601aca6351ca1ceab6b078968954dcb6916adea7",
-    "assets/js/main.js": "4e846e026f0c69ace8ff98d06228ce54b7d49c52d5861a1ed2f589623fc0e912"
+    "index.html": "f375a4c0be841761ee0f911be65cdee233b6261c180976a8b3ff22c431980d91",
+    "assets/css/style.css": "d4cdb4b5bd5036cc32c348ebd8465a15c7662d7c98e93405b43a2e9df010497c",
+    "assets/js/main.js": "56de458f83101c06cd6b0f9eee2b6649c7c7388ff9c6f9039f06d0ac71969711"
   },
   "decisions": [
     "Публичный репо puholet-sketch/LC200, Pages с main",
     "PII и _src не в git",
-    "Визуал штатных 20: OEM-диск с фото + композит на LC200, плюсы/минусы моделей"
+    "Цель 21 не 22: RST R2107FF 8.5x21 ET54 + Alenza 275/50R21 113V"
   ],
   "blockers": [],
   "last_error": null,

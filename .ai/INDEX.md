@@ -5,12 +5,14 @@
 - `_src/СТС LC200.pdf` — скан СТС (Microsoft Lens), PII, не для сайта
 - `_src/sts-page-1.png` — оборот СТС (собственник)
 - `_src/sts-page-2.png` — лицевая СТС (ТС)
-- `index.html` — страница подбора 20→22
+- `index.html` — страница подбора 20→21
 - `assets/css/style.css` — стиль Toyota
-- `assets/js/main.js` — nav, сравнение 20/22, визуал шин на 20″
+- `assets/js/main.js` — nav, сравнение 20/21, визуал шин на 20″
 - `assets/img/lc200-hero.png` — герой
 - `assets/img/lc200-compare-20.png` — вид 20″
-- `assets/img/lc200-compare-22.png` — вид 22″
+- `assets/img/lc200-compare-21.jpg` — вид 21″ 275/50
+- `assets/img/stock21-*.jpg` — 21″ на LC200
+- `scripts/render_compare_21.py` — сборка визуала 21″
 - `assets/img/toyota-mark.svg` — трёховальная эмблема
 - `assets/img/favicon.svg` — фавикон красным mark
 - `assets/img/lug-nut-oem.png` — штатная mag-seat

@@ -109,6 +109,23 @@
     range.addEventListener("input", function () {
       setPos(range.value);
     });
+
+    function posFromPointer(event) {
+      const box = root.getBoundingClientRect();
+      const x = (event.clientX - box.left) / box.width;
+      setPos(Math.round(x * 100));
+    }
+
+    root.addEventListener("pointerdown", function (event) {
+      if (event.pointerType === "mouse" && event.button !== 0) return;
+      posFromPointer(event);
+      root.setPointerCapture(event.pointerId);
+    });
+    root.addEventListener("pointermove", function (event) {
+      if (!root.hasPointerCapture(event.pointerId)) return;
+      posFromPointer(event);
+    });
+
     syncWidth();
     window.addEventListener("resize", syncWidth, { passive: true });
   });
