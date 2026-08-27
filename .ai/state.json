@@ -1,14 +1,14 @@
 {
-  "context_version": 10,
-  "timestamp": "2026-08-27T11:22:00+03:00",
-  "context_hash": "4c7e2e82728b3ed04789876a5b812e61f45c10c32db6a97a776f3fdf30b8a002",
+  "context_version": 11,
+  "timestamp": "2026-08-27T18:20:00+03:00",
+  "context_hash": "1612fb5d7b83189b28529723f86246759daba49d2b8e056a654df7027d5ab355",
   "active_files": [
     "index.html",
     "assets/css/style.css",
     "assets/js/main.js"
   ],
   "active_file_hashes": {
-    "index.html": "5a9318cb8a1145c69364cb9cd1a29333e3505d0acbb5e612c4c2e8e774c64ea3",
+    "index.html": "bd68ac943df051d1489efaebb591be70974cde0af90a34356704eba766e84a13",
     "assets/css/style.css": "ca212fc66fecab7817808cb87f5f1e91e8196b75ad194970fc0b6f8b5ea845b4",
     "assets/js/main.js": "56de458f83101c06cd6b0f9eee2b6649c7c7388ff9c6f9039f06d0ac71969711"
   },
@@ -16,10 +16,11 @@
     "Публичный репо puholet-sketch/LC200, Pages с main",
     "PII и _src не в git",
     "Цель 21 не 22: RST R2107FF 8.5x21 ET54 + Alenza 275/50R21 113V",
+    "Визуал 21 на машине — Zumbo SD 0869 8.5x21, не затемнённый OEM 20",
     "Раздел #tires — полный обзор шин 21, диск 8.5J не трогаем"
   ],
   "blockers": [],
   "last_error": null,
   "retry_count": 0,
-  "next_action": "сайт обновлён на GitHub Pages"
+  "next_action": "задеплоить визуал Zumbo на GitHub Pages"
 }

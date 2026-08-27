@@ -12,7 +12,8 @@
 - `assets/img/lc200-compare-20.png` — вид 20″
 - `assets/img/lc200-compare-21.jpg` — вид 21″ 275/50
 - `assets/img/stock21-*.jpg` — 21″ размеры на LC200 (50/45/40)
-- `scripts/render_compare_21.py` — сборка визуала 21″
+- `scripts/render_compare_21.py` — сборка визуала 21″ с лицом Zumbo
+- `assets/img/zumbo-21-wheel.jpg` — исходник Zumbo 8.5J×21 (Avito)
 - `assets/img/toyota-mark.svg` — трёховальная эмблема
 - `assets/img/favicon.svg` — фавикон красным mark
 - `assets/img/lug-nut-oem.png` — штатная mag-seat
