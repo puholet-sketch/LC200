@@ -7,11 +7,11 @@
 - `_src/sts-page-2.png` — лицевая СТС (ТС)
 - `index.html` — страница подбора 20→21, рынок и витрина 21″ в `#buy`
 - `assets/css/style.css` — стиль Toyota
-- `assets/js/main.js` — nav, сравнение 20/21, визуал шин на 20″
+- `assets/js/main.js` — nav, сравнение 20/21, визуал шин на 21″
 - `assets/img/lc200-hero.png` — герой
 - `assets/img/lc200-compare-20.png` — вид 20″
 - `assets/img/lc200-compare-21.jpg` — вид 21″ 275/50
-- `assets/img/stock21-*.jpg` — 21″ на LC200
+- `assets/img/stock21-*.jpg` — 21″ размеры на LC200 (50/45/40)
 - `scripts/render_compare_21.py` — сборка визуала 21″
 - `assets/img/toyota-mark.svg` — трёховальная эмблема
 - `assets/img/favicon.svg` — фавикон красным mark

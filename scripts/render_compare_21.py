@@ -22,8 +22,11 @@ from render_stock20_fitment import (
 RIM21 = 21 / 20
 
 SIZES = [
-    {"id": "275-50", "label": "275/50R21 комфорт", "od": 808.0, "dark": True},
-    {"id": "285-45", "label": "285/45R21 матч", "od": 790.0, "dark": True},
+    {"id": "275-50", "label": "275/50R21 комфорт", "od": 808.0, "side": 137.5, "dark": True, "tread": "ht"},
+    {"id": "285-45", "label": "285/45R21 матч", "od": 790.0, "side": 128.0, "dark": True, "tread": "ht"},
+    {"id": "295-45", "label": "295/45R21 шире", "od": 799.0, "side": 133.0, "dark": True, "tread": "ht"},
+    {"id": "275-45", "label": "275/45R21 жёстче", "od": 781.0, "side": 124.0, "dark": True, "tread": "ht"},
+    {"id": "285-40", "label": "285/40R21 не брать", "od": 761.0, "side": 114.0, "dark": True, "tread": "ht"},
 ]
 
 
@@ -53,7 +56,7 @@ def render_21(car: Image.Image, oem: Image.Image, spec: dict) -> Image.Image:
         new_cy = gy - new_tire_r
         tire_px = int(round(new_tire_r * 2)) + 6
         rim_px = int(round(rim_r * 2 * 0.995))
-        tire = make_tire_layer(tire_px, rim_px // 2, "ht")
+        tire = make_tire_layer(tire_px, rim_px // 2, spec.get("tread", "ht"))
         tire = clip_below_ground(tire, cx, new_cy, gy)
         paste_center(out, tire, cx, new_cy)
         face = face_src.resize((rim_px, rim_px), Image.Resampling.LANCZOS)
@@ -66,14 +69,23 @@ def crop_rear(img: Image.Image, spec: dict) -> Image.Image:
     pad = int(rim20 * 2.15)
     box = (cx - pad, cy - pad - 36, cx + pad, cy + pad + 28)
     crop = img.crop(box).convert("RGBA")
+    draw = ImageDraw.Draw(crop)
+    stock_r = rim20 * (STOCK_OD / RIM_MM)
+    scale = spec["od"] / STOCK_OD
+    new_r = stock_r * scale
+    gy = ground_y(cx, cy, rim20)
+    new_cy = gy - new_r
+    lx = cx - box[0]
+    ly = new_cy - box[1]
+    draw.ellipse((lx - stock_r, ly - stock_r, lx + stock_r, ly + stock_r), outline=(235, 10, 30, 150), width=2)
     bar = Image.new("RGBA", (crop.width, 36), (17, 17, 17, 200))
     crop.alpha_composite(bar, (0, crop.height - 36))
-    draw = ImageDraw.Draw(crop)
+    d2 = ImageDraw.Draw(crop)
     try:
         font = ImageFont.truetype("arial.ttf", 16)
     except OSError:
         font = ImageFont.load_default()
-    draw.text((12, crop.height - 28), spec["label"], fill=(255, 255, 255, 255), font=font)
+    d2.text((12, crop.height - 28), spec["label"], fill=(255, 255, 255, 255), font=font)
     return crop.convert("RGB")
 
 
