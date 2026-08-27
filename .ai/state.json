@@ -1,21 +1,22 @@
 {
-  "context_version": 8,
-  "timestamp": "2026-08-25T11:45:00+03:00",
-  "context_hash": "99f9ce51d12d86ea8f058677ab25e729da92785917e56835d9d1a57037e24995",
+  "context_version": 9,
+  "timestamp": "2026-08-27T10:24:00+03:00",
+  "context_hash": "64e6ad8e10566620f676bd212309e834fb1ed982694b3da96337ae64aa080a73",
   "active_files": [
     "index.html",
     "assets/css/style.css",
     "assets/js/main.js"
   ],
   "active_file_hashes": {
-    "index.html": "f375a4c0be841761ee0f911be65cdee233b6261c180976a8b3ff22c431980d91",
-    "assets/css/style.css": "d4cdb4b5bd5036cc32c348ebd8465a15c7662d7c98e93405b43a2e9df010497c",
+    "index.html": "e8c960694a6ec0c68c3ca9d56b5d419df7a2fa71e1f4bfb60f04c6de8c66d2b4",
+    "assets/css/style.css": "ca212fc66fecab7817808cb87f5f1e91e8196b75ad194970fc0b6f8b5ea845b4",
     "assets/js/main.js": "56de458f83101c06cd6b0f9eee2b6649c7c7388ff9c6f9039f06d0ac71969711"
   },
   "decisions": [
     "Публичный репо puholet-sketch/LC200, Pages с main",
     "PII и _src не в git",
-    "Цель 21 не 22: RST R2107FF 8.5x21 ET54 + Alenza 275/50R21 113V"
+    "Цель 21 не 22: RST R2107FF 8.5x21 ET54 + Alenza 275/50R21 113V",
+    "Рынок августа 2026 в #buy: только 21 дюйм"
   ],
   "blockers": [],
   "last_error": null,

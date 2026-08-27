@@ -1064,6 +1064,55 @@ a {
   border-color: var(--ink);
 }
 
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 16px;
+  border: 1px solid var(--line);
+}
+
+.data-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+  background: var(--white);
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+  font-size: 14px;
+}
+
+.data-table thead th {
+  background: var(--toyota-red);
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom: 0;
+}
+
+.data-table tbody tr:nth-child(even) td {
+  background: #fafafa;
+}
+
+.data-table tr.is-pick td {
+  background: #fff5f5;
+  font-weight: 600;
+}
+
+.data-table tr.is-no td {
+  color: var(--muted);
+}
+
+.data-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
 .buy-links {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -1360,6 +1409,10 @@ a {
 
   .card {
     padding: 20px;
+  }
+
+  .data-table {
+    min-width: 640px;
   }
 
   .spec-table th,

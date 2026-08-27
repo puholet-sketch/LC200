@@ -5,7 +5,7 @@
 - `_src/СТС LC200.pdf` — скан СТС (Microsoft Lens), PII, не для сайта
 - `_src/sts-page-1.png` — оборот СТС (собственник)
 - `_src/sts-page-2.png` — лицевая СТС (ТС)
-- `index.html` — страница подбора 20→21
+- `index.html` — страница подбора 20→21, рынок и витрина 21″ в `#buy`
 - `assets/css/style.css` — стиль Toyota
 - `assets/js/main.js` — nav, сравнение 20/21, визуал шин на 20″
 - `assets/img/lc200-hero.png` — герой
